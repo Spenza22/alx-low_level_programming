@@ -7,14 +7,14 @@ int main(void)
 {
 	char cha;
 	int numb;
-	long int longNum;
-	long long quiteLong;
+	long int Numb;
+	long long Long;
 	float floatPnt;
 
-	printf("Size of an int: %d byte(s)\n", (unsigned long)sizeof(cha));
+	printf("Size of a char: %d byte(s)\n", (unsigned long)sizeof(cha));
 	printf("Size of an int: %d byte(s)\n", (unsigned long)sizeof(numb));
-	printf("Size of an int: %d byte(s)\n", (unsigned long)sizeof(longNum));
-	printf("Size of an int: %d byte(s)\n", (unsigned long)sizeof(quiteLong));
-	printf("Size of an int: %d byte(s)\n", (unsigned long)sizeof(floatPnt));
+	printf("Size of a long int: %d byte(s)\n", (unsigned long)sizeof(Numb));
+	printf("Size of a long long: %d byte(s)\n", (unsigned long)sizeof(Long));
+	printf("Size of a float: %d byte(s)\n", (unsigned long)sizeof(floatPnt));
 	return (0);
 }
