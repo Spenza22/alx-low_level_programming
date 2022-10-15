@@ -2,4 +2,18 @@ Task0: This program will assign a random number to the variable n each time it i
 
 Task1: This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
 
-Task2: 
+Task2: Write a program that prints the alphabet in lowercase, followed by a new line.
+
+Task3: Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
+
+Task4: Write a program that prints the alphabet in lowercase, followed by a new line.
+
+Task5: Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
+Task6: Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
+
+Task7: Write a program that prints the lowercase alphabet in reverse, followed by a new line.
+
+Task8: Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
+
+Task9: Write a program that prints all possible combinations of single-digit numbers.Numbers must be separated by ,, followed by a space
