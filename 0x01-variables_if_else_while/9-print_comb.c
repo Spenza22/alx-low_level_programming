@@ -5,19 +5,17 @@
  */
 int main(void)
 {
-	/* int Ualpha = 97;*/
 	int space = 32;
 	int comma = 44;
 	int alpha = 48;
-	/* newline == 10 || null == */
+
 	while (alpha <= 57)
 	{
+		putchar(alpha);
 		if (alpha == 57)
 		{
-			comma = 0;
-			space = 0;
+			break;
 		}
-		putchar(alpha);
 		putchar(comma);
 		putchar(space);
 		alpha++;
