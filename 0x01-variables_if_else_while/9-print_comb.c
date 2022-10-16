@@ -15,13 +15,13 @@ int main(void)
 		if (alpha == 57)
 		{
 			comma = 0;
-			space = 10;
+			space = 0;
 		}
 		putchar(alpha);
 		putchar(comma);
 		putchar(space);
 		alpha++;
 	}
-	/* putchar(10); */
+	putchar(10);
 	return (0);
 }
