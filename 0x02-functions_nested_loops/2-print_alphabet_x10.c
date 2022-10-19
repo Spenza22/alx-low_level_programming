@@ -1,5 +1,6 @@
 #include "main.h"
 void print_alphabet_x10(void);
+
 /**
  * print_alphabet_x10 - Print all the alphabets in lower cases 10x
  *  Return: Always 0.
