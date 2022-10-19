@@ -18,4 +18,3 @@ int _abs(int n)
 		absVal = n;
 	return (absVal);
 }
-	
