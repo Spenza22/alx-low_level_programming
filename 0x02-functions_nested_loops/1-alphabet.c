@@ -17,12 +17,11 @@ int main(void)
  */
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char myAlp = 'a';
 
-	while (alp <= 'z')
+	for ( ; myAlp <= 'z'; myAlp++)
 	{
-		_putchar (alp);
-		alp++;
+		_putchar (myAlp);
 
 	}
 	_putchar ('\n');
