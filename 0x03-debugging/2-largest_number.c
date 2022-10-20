@@ -9,8 +9,8 @@ int main(void)
 	int a, b, c;
 	int largest;
 
-	a = 972;
-	b = -98;
+	a = 0;
+	b = 0;
 	c = 0;
 
 	largest = largest_number(a, b, c);
@@ -32,15 +32,20 @@ int largest_number(int a, int b, int c)
 {
 	int largest;
 
-	if ((a > b) && (a > c))
+	if ((a > b))
 	{
-		largest = a;
+		if (a > c)
+		{
+			largest = a;
+		}
+		else
+			largest = c;
 	}
-	else if ((b > a) && (b > c))
+	else if ((b > c))
 	{
 		largest = b;
 	}
-	else if ((c > a) && (c > b))
+	else
 	{
 		largest = c;
 	}
