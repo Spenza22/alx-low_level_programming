@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * print_numbers - checks for number/digits
- * Return: void value
  */
 
 void print_numbers(void)
