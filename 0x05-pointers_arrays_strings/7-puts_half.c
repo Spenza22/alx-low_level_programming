@@ -1,0 +1,31 @@
+#include "main.h"
+/**
+ * puts_half - Prints half a string
+ * @str: Accepts a char pointer
+ * Return: Void function
+ */
+
+void puts_half(char *str)
+{
+	int i;
+	int lenOfstr;
+	int oddVal;
+	int evenVal;
+	int n;
+
+	for (i = 0; str[i] != '\0'; i++)
+	{
+		lenOfstr++;
+	}
+	oddVal = (lenOfstr - 1) / 2;
+	evenVal = lenOfstr / 2;
+	if (lenOfstr % 2 == 0)
+		n = evenVal;
+	else
+		n = oddVal;
+	for (; str[n] != '\0'; n++)
+	{
+		_putchar(str[n]);
+	}
+	_putchar('\n');
+}
