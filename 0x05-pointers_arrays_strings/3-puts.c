@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _puts - Prints the characters in a string
  * @str: Accepts a single character
